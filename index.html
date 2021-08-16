@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+<title>ODD SEMESTER 2021</title>
+    <link rel="shortcut icon" type="image/jpg" href="covidfall.jpg"/>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.left-section {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-animation-name: left-section;
+          animation-name: left-section;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.right-section {
+  flex: 1;
+  background: linear-gradient(to right, #f50629 0%, #fd9d08 100%);
+  transition: 1s;
+  background-image: url(photo.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header > h1 {
+  margin: 0;
+  color: #f50629;
+}
+.header > h4 {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.form {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.form > p {
+  text-align: right;
+}
+.form > p > a {
+  color: #000;
+  font-size: 14px;
+}
+.form-field {
+  height: 46px;
+  padding: 0 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+  outline: 0;
+  transition: .2s;
+  margin-top: 20px;
+}
+.form-field:focus {
+  border-color: #0f7ef1;
+}
+.form > button {
+  padding: 12px 10px;
+  border: 0;
+  background: linear-gradient(to right, #f50629 0%, #fd9d08 100%);
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Rubik', sans-serif;
+}
+.animation {
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+ 
+.a1 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.a2 {
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+.a3 {
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+.a4 {
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
+}
+.a5 {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+.a6 {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+@keyframes move {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes left-section {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    padding: 20px 40px;
+    width: 440px;
+  }
+}
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <div class="subnav">
+      
+      
+    <button class="subnavbtn">Academics <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+        <a href="https://sites.google.com/karunya.edu.in/semester07/announcements">Announcements
+</a>
+      <a href="#">Assignments</a>
+      <a href="https://canvas.instructure.com/login/canvas">Attendance</a> 
+      <a href="https://tester221928.gnomio.com/login/index.php">Exam Portal</a>
+      <a href="https://ayvonjoseph.000webhostapp.com/Students%20Login/Create%20Time%20Table">Create Time Table</a>
+      <a href="https://ayvonjoseph.000webhostapp.com/Students%20Login/Exam%20Time-Table">Online Exam Timetable</a>
+      <a href="#">Online Interview</a>
+    </div>
+  </div> 
+  
+  
+  <div class="subnav">
+    <button class="subnavbtn">Application <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://forms.gle/QQ3t58EeSje9A8Q16">Any Enquiry</a>
+      
+      <a href="#">Assessment Upload Form</a>
+      <a href="https://form.jotform.com/mldmnmail/application-for-project-form">Application for Project</a>
+      
+      
+    </div>
+  </div> 
+  
+  
+  
+  <div class="subnav">
+    <button class="subnavbtn">Project Reports<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+    <a href="https://drive.google.com/file/d/1X4AF4gHJ0g6EBu40_GQCt6Xvjbglpnil/view?usp=sharing">Mini Template</a>
+     <a href="https://forms.gle/9VtjistsY7hDZvhM7">Submittion Form</a>
+     <a href="https://sites.google.com/karunya.edu.in/semester07/presentation">Presentation</a>
+      
+    </div>
+  </div> 
+  
+  
+  
+  
+  
+  
+  <div class="subnav">
+    <button class="subnavbtn">Exam Support<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://sites.google.com/karunya.edu.in/semester07/exam-support">Support Page</a>
+      <a href="https://bit.ly/3BQAYdM">My Exam Site</a>
+      <a href="https://sites.google.com/karunya.edu.in/semester07/exam-support">Exam Registration Form</a>
+      <a href="https://bit.ly/3xIlghr">Exam Record Form</a>
+      
+     
+
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="subnav">
+    <button class="subnavbtn">Exam Results <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      
+      <a href="https://ayvonjoseph.000webhostapp.com/Students%20Login/CS80%20-%20Semester%2007%20Exam%20Result.html">URK18CS080</a>
+      <a href="https://ayvonjoseph.000webhostapp.com/Students%20Login/CS82%20-%20Semester%2007%20Exam%20Result.html"> URK18CS082</a>
+      <a href="https://sites.google.com/karunya.edu.in/semester07/exam-results-2021-22">Exam Results 2021-22</a>
+      <a href="https://ayvonjosephbiji.github.io/Student-Grade-Calculator/">Student Grade Calculator</a>
+      
+    </div>
+  </div>
+  <a href="https://ayvonjoseph.000webhostapp.com/Students%20Login/Contact.html">Contact</a>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+  <form action="https://sites.google.com/karunya.edu.in/semester07/home">
+  <div class="left-section">
+    <div class="header">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <h1 class="animation a1">Welcome Back!</h1>
+      <h4 class="animation a2">Log in for entering your membership dashboard.</h4>
+    </div>
+    <div class="form">
+       
+      <input type="email" class="form-field animation a3" placeholder="Username" required>
+      <input type="password" class="form-field animation a4" placeholder="Password" required>
+      <p class="animation a5"><a href="#">Forgot Password</a></p>
+      <button class="animation a6" >LOGIN</button>
+    </form>
+    </div>
+  </div>
+  <div class="right-section"></div>
+</div>
+
+
+</body>
+</html>
